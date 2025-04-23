@@ -26,4 +26,27 @@ public class ServiceImpl implements IService {
 		return daoArticle.findAll();
 	}
 
+	@Override
+	public Article getById(long id) {
+		return daoArticle.getById(id);
+	}
+
+	@Override
+	public void save(Article article) {
+		daoArticle.save(article);
+	}
+
+	@Override
+	public void update(Article article) {
+		daoArticle.update(article);
+	}
+
+	@Override
+	public void delete(long id) {
+		daoArticle.delete(id);
+	}
+
+	public List<Article> searchArticle(String description) {
+		return daoArticle.searchArticle(description);
+	}
 }

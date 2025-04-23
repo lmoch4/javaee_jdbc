@@ -4,7 +4,7 @@
 
 <html>
 <head>
-<title>Items</title>
+<title>Article</title>
 <link href="webjars/bootstrap/4.6.1/css/bootstrap.min.css"	rel="stylesheet">
 
 <link href="webjars/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">

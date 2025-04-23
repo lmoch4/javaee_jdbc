@@ -6,16 +6,15 @@
 				role="button" data-toggle="dropdown" aria-haspopup="true"
 				aria-expanded="false"> Gestion des articles </a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<a class="dropdown-item" href="${pageContext.request.contextPath}/articles.do">Consulter</a> 
-					<a class="dropdown-item" href="#">Autre fonctionnalité</a>
+					<a class="dropdown-item" href="${pageContext.request.contextPath}/articles.do">Consulter</a>
+					<a class="dropdown-item" href="#">Autre fonctionnalitï¿½</a>
 					<div class="dropdown-divider"></div>
 					<a class="dropdown-item" href="#">Something else here</a>
 				</div></li>
 		</ul>
-		<form class="form-inline my-2 my-lg-0">
-			<input class="form-control mr-sm-2" type="search"
-				placeholder="Search" aria-label="Search">
-			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+		<form action="${pageContext.request.contextPath}/articles.do" method="get" class="d-flex mb-3" role="search">
+			<input class="form-control me-2" type="search" name="search" placeholder="Search" aria-label="Search" />
+			<button class="btn btn-outline-primary" type="submit">ğŸ”</button>
 		</form>
 
 		<ul class="navbar-nav mr-auto">
